@@ -18,6 +18,7 @@ Gem::Specification.new do |s|
 #  s.test_files.reject! { |fn| fn.include? ".swp" }
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
+  s.add_dependency 'rails'
 #  s.add_development_dependency('rspec')
   [ ].each do |d| # no dependencies right now ;)
     s.add_development_dependency d
