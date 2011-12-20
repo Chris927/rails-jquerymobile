@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.platform = Gem::Platform::RUBY
   s.authors = ["Chris"]
   s.email = ["christian.oloff+gem@gmail.com"]
-  s.homepage = "http://rails-jquerymobile.org"
+  s.homepage = "https://github.com/Chris927/rails-jquerymobile"
   s.summary = "Use Jquerymobile in a Rails application."
   s.description = "Nuf said."
   s.rubyforge_project = "rails-jquerymobile"
