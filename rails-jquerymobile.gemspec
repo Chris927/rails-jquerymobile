@@ -9,8 +9,8 @@ Gem::Specification.new do |s|
   s.authors = ["Chris"]
   s.email = ["christian.oloff+gem@gmail.com"]
   s.homepage = "https://github.com/Chris927/rails-jquerymobile"
-  s.summary = "Use Jquerymobile in a Rails application."
-  s.description = "Nuf said."
+  s.summary = "Use jQuery Mobile in a Rails application."
+  s.description = "Use jQuery Mobile in a Rails application by adding a :mobile format, and by adding a mobile layout that references jQuery Mobile"
   s.rubyforge_project = "rails-jquerymobile"
 
   s.files         = `git ls-files`.split("\n")
@@ -19,7 +19,6 @@ Gem::Specification.new do |s|
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
   s.add_dependency 'rails'
-#  s.add_development_dependency('rspec')
   [ ].each do |d| # no dependencies right now ;)
     s.add_development_dependency d
   end
