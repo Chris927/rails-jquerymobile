@@ -6,5 +6,5 @@ task :build do
 end
  
 task :release => :build do
-    system "gem push rails-jquerymobile-#{Bunder::VERSION}"
+    system "gem push rails-jquerymobile-#{RailsJquerymobile::VERSION}.gem"
 end
