@@ -64,4 +64,11 @@ You can add a links to switch between the formats as follows:
 	<%= link_to "Web Site", root_path(:mobile => 0), :rel => 'external' %>
 	<%= link_to "Mobile Site", root_path(:mobile => 1), :rel => 'external' %>
 
+Options
+-------
+
+The `has_mobile_format` method has the following options:
+
+* `:debug`: If `true`, debug messages about which format is remembered and which format is chosen are written to stdout.
+
 Copyright (c) 2011 Chris, released under the MIT license
